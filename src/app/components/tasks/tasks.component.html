@@ -1,1 +1,3 @@
-<app-task-single *ngFor="let task of tasks" [task]="task"></app-task-single>
+<app-task-single *ngFor="let task of tasks" [task]="task"
+(onDeleteTask)="deleteTask(task)"
+></app-task-single>
